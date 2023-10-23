@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.eefc237f.css",
+    "main.js": "/portfolio/static/js/main.b423c2a2.js",
+    "static/media/cookingmama.mp3": "/portfolio/static/media/cookingmama.b5c17bc416796db52758.mp3",
+    "static/media/scenery.jpg": "/portfolio/static/media/scenery.35a84720ced5baccda64.jpg",
+    "static/media/sleepy.gif": "/portfolio/static/media/sleepy.47d3b39752e2771d76f5.gif",
+    "static/media/coverbanner.jpg": "/portfolio/static/media/coverbanner.872a238ae68cb5a00e6a.jpg",
+    "static/media/pandas.gif": "/portfolio/static/media/pandas.ec31c624971333f12319.gif",
+    "static/media/toad.gif": "/portfolio/static/media/toad.ed364a9f44597b124826.gif",
+    "static/media/dance.gif": "/portfolio/static/media/dance.016a20d2c38977273dea.gif",
+    "static/media/flowers.gif": "/portfolio/static/media/flowers.1dd7a0648c547181ac14.gif",
+    "static/media/plant.gif": "/portfolio/static/media/plant.d61e6241155678bdf6e0.gif",
+    "index.html": "/portfolio/index.html",
+    "main.eefc237f.css.map": "/portfolio/static/css/main.eefc237f.css.map",
+    "main.b423c2a2.js.map": "/portfolio/static/js/main.b423c2a2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eefc237f.css",
+    "static/js/main.b423c2a2.js"
+  ]
+}
