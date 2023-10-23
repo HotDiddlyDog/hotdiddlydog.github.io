@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route }
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
     <div className="App">
       <Routes>
         <Route exact path='/' element={<Start />} />
