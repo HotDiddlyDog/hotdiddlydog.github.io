@@ -1,5 +1,3 @@
-Link to website hotdiddlydog.github.io
-
 # Purpose
 
 This project was created for creative purposes and for practice. 
