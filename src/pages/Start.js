@@ -11,7 +11,8 @@ function Start (){
     return(
         <>
         <div class="start-container">
-            
+            <p class='hint'><em>*click on the frog*</em></p>
+
             <h1 class="welcome" >Welcome!</h1>
             <Link to="/Home">
                 <img className="gif" onClick={play} src={require("../assets/toad.gif")} alt="toadhappy" />

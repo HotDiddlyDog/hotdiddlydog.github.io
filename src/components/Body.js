@@ -12,6 +12,14 @@ function Body(){
                 <img className="info-picture"src={require("../assets/scenery.jpg")}alt="cat"/>
                 <Card  title="Project 1" description="This was my first project " />
             </div>
+            <div class="project">
+                <img className="info-picture"src={require("../assets/coverbanner.jpg")} alt="cat"/>
+                <Card  title="Project 1" description="This was my first project " />
+            </div>
+            <div class="project">
+                <img className="info-picture"src={require("../assets/scenery.jpg")}alt="cat"/>
+                <Card  title="Project 1" description="This was my first project " />
+            </div>
             
         </div>
     );

@@ -28,7 +28,7 @@ function Header(){
             </a>
             <div>
               <h1 style={{textAlign: "center", padding: "50px"}}>
-                Kathy's Portfolio
+                Kathy Nguyen
               </h1>
             </div>
             <a href="https://www.freecodecamp.org/KitkatKathy" target="_blank" rel="noreferrer">
