@@ -23,6 +23,7 @@ function Intro(){
                 </div>
         
         </div>
+        <hr class='break'></hr>
         </>
     );
 }

@@ -1,15 +1,8 @@
 
 function Header(){
     return(
+      <>
         <header class="container-header">
-          {/* <a href="" target="_blank" rel="noreferrer">
-              <img className="gif" src={require("../assets/duck.gif")} alt="duck" />
-              <div >
-                <button class="button">
-                  button
-                </button>
-              </div>
-            </a> */}
             <a href="https://github.com/HotDiddlyDog" target="_blank" rel="noreferrer">
               <img className="gif" src={require("../assets/pandas.gif")} alt="pandalove" />
               <div >
@@ -56,6 +49,8 @@ function Header(){
               </div>
             </a> */}
         </header>
+        <hr class='break'></hr>
+        </>
     );
 }
 export default Header;

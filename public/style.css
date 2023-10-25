@@ -27,11 +27,7 @@
     display:flex;
     justify-content: center;
     padding: 1rem;
-    
-    /* border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
-    /* background-color: #ffe5ec !important; */
-
+    /* transform: translateY(-40px); */
 }
 
 .gif{
@@ -56,6 +52,15 @@
     padding: 4rem;
     
 }
+.outer-body{
+    margin-top:75px;
+}
+.break{
+    border: 10px solid #606c38;
+    /* border-radius: 5px; */
+    background-color: #606c38;
+
+}
 .container-intro{
     
     display:flex;
@@ -64,6 +69,7 @@
     flex-wrap:wrap;
     margin: 1rem;
     padding: 4rem;
+    /* transform: translateY(-50px); */
     
 }
 .container-introcontent{
