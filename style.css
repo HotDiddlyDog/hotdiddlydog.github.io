@@ -15,6 +15,14 @@
     max-width: 500px;
     max-height: 500px;
 }
+.me{
+    border-radius: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 500px !important;
+    background-color: #FEFAE0 !important;
+    
+    
+}
 .container-header{
     display:flex;
     justify-content: center;
@@ -52,9 +60,9 @@
     
     display:flex;
     justify-content: center;
-    grid-gap: 20px;
+    grid-gap: 100px;
     flex-wrap:wrap;
-    margin: 0;
+    margin: 1rem;
     padding: 4rem;
     
 }
@@ -67,7 +75,9 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     max-width: 500px;
     max-height: 500px;
-    
+    background-color: #FEFAE0;
+    margin: 1rem;
+    /* transform: translateX(70px); */
 }
 .intro-img{
     max-width: 500px;
