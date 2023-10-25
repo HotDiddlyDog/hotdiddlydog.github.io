@@ -6,19 +6,19 @@ function Body(){
         <div class="container-body">
             <div class="project">
                 <img className="info-picture"src={require("../assets/coverbanner.jpg")} alt="cat"/>
-                <Card  title="Project 1" description="This was my first project " />
+                <Card  title="To be updated" description="To be updated " />
             </div>
             <div class="project">
                 <img className="info-picture"src={require("../assets/scenery.jpg")}alt="cat"/>
-                <Card  title="Project 1" description="This was my first project " />
+                <Card  title="To be updated" description="To be updated " />
             </div>
             <div class="project">
                 <img className="info-picture"src={require("../assets/coverbanner.jpg")} alt="cat"/>
-                <Card  title="Project 1" description="This was my first project " />
+                <Card  title="To be updated" description="To be updated " />
             </div>
             <div class="project">
                 <img className="info-picture"src={require("../assets/scenery.jpg")}alt="cat"/>
-                <Card  title="Project 1" description="This was my first project " />
+                <Card  title="To be updated" description="To be updated" />
             </div>
             
         </div>
