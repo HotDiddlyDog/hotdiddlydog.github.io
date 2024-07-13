@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.eefc237f.css",
-    "main.js": "/static/js/main.020f932f.js",
+    "main.js": "/static/js/main.984352da.js",
+    "static/media/pitch video.mp4": "/static/media/pitch video.ffced966af6dc727ca70.mp4",
     "static/media/cookingmama.mp3": "/static/media/cookingmama.b5c17bc416796db52758.mp3",
     "static/media/me1.png": "/static/media/me1.dc9448b0d589164cbf3f.png",
     "static/media/scenery.jpg": "/static/media/scenery.35a84720ced5baccda64.jpg",
@@ -14,10 +15,10 @@
     "static/media/plant.gif": "/static/media/plant.d61e6241155678bdf6e0.gif",
     "index.html": "/index.html",
     "main.eefc237f.css.map": "/static/css/main.eefc237f.css.map",
-    "main.020f932f.js.map": "/static/js/main.020f932f.js.map"
+    "main.984352da.js.map": "/static/js/main.984352da.js.map"
   },
   "entrypoints": [
     "static/css/main.eefc237f.css",
-    "static/js/main.020f932f.js"
+    "static/js/main.984352da.js"
   ]
 }

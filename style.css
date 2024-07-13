@@ -1,36 +1,46 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya&display=swap');
 
-*{
-    /* background-color: #FEFAE0 ; */
+* {
     font-family: Alegreya;
     text-align: center;
     font-size: 15px;
-    /* cursor: url('../src/assets/toad.gif'), auto; */
-    
 }
-.banner{
+
+.banner {
     object-fit: cover;
 }
-.info-picture{
+
+.info-picture {
     max-width: 500px;
     max-height: 500px;
+    width: 100%;
 }
-.me{
+
+.info-video {
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+}
+
+.card-description {
+    width: 100%;
+    word-wrap: break-word; /* Ensures long words wrap and don't expand the box */
+}
+
+.me {
     border-radius: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     max-width: 500px !important;
     background-color: #FEFAE0 !important;
-    
-    
-}
-.container-header{
-    display:flex;
-    justify-content: center;
-    padding: 1rem;
-    /* transform: translateY(-40px); */
 }
 
-.gif{
+.container-header {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.gif {
     max-width: 120px;
     max-height: 120px;
     display: block;
@@ -39,42 +49,42 @@
     padding: 5px;
     transition: all 0.3s;
 }
-.gif:hover{
+
+.gif:hover {
     transform: translateY(-10px);
 }
 
-.container-body{
-    display:flex;
+.container-body {
+    display: flex;
     justify-content: center;
     grid-gap: 20px;
     flex-wrap: wrap;
     margin: 0;
     padding: 4rem;
-    
 }
-.outer-body{
-    margin-top:75px;
-}
-.break{
-    border: 10px solid #606c38;
-    /* border-radius: 5px; */
-    background-color: #606c38;
 
+.outer-body {
+    margin-top: 75px;
 }
-.container-intro{
-    display:flex;
+
+.break {
+    border: 10px solid #606c38;
+    background-color: #606c38;
+}
+
+.container-intro {
+    display: flex;
     justify-content: center;
     grid-gap: 100px;
     margin: 1rem;
     padding: 4rem;
-    /* transform: translateY(-50px); */
-    
 }
-.container-introcontent{
+
+.container-introcontent {
     display: flex;
     justify-content: center;
-    padding:20px;
-    flex-wrap:wrap;
+    padding: 20px;
+    flex-wrap: wrap;
     min-width: 500px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -82,12 +92,13 @@
     max-height: 500px;
     background-color: #FEFAE0;
     margin: 1rem;
-    /* transform: translateX(70px); */
 }
-.intro-img{
+
+.intro-img {
     max-width: 500px;
     max-height: 500px;
 }
+
 .project {
     background-color: #FEFAE0 !important;
     margin: 1rem;
@@ -95,49 +106,54 @@
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     transition: all 0.3s;
+    max-width: 500px; /* Ensure the project container doesn't exceed 500px */
+    width: 100%; /* Ensure it takes the full available width */
 }
-.project:hover{
+
+.project:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     transform: translateY(-10px);
 }
+
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 2rem;
     background-color: #ccd5ae;
-
 }
-.start-container{
+
+.start-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin:auto;
-    /* grid-gap: 40px; */
+    margin: auto;
     background-color: #FEFAE0;
     min-height: 100vh;
 }
-.welcome{
+
+.welcome {
     font-size: 5em;
 }
-.hint,.outside{
+
+.hint,
+.outside {
     background-color: #FEFAE0;
-    
-}
-.hint{
-   position: absolute;
-   transform: translate(-30%,-100%);
 }
 
-/* .img-background{
-    position: fixed;
-    top: 0;
-    left: 0;
-    opacity: 50%;
-    max-width: 250px;
-    
-} */
-.background-color{
+.hint {
+    position: absolute;
+    transform: translate(-30%, -100%);
+}
+
+.background-color {
     background-color: #ccd5ae;
+}
+
+.card-content {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: left;
 }
