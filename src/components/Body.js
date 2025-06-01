@@ -22,6 +22,7 @@ function Body() {
                                 </video>
                                 <h2>False Alarm Processing App</h2>
                                 <p>HTML/CSS, JavaScript, MongoDB, Electron, Node.js</p>
+                                <p>*flip me*</p>
                             </div>
                             <div className="card-back">
                                 <Card
