@@ -112,7 +112,7 @@
 .project.card {
     position: relative;
     width: 100%;
-    height: 400px; /* Adjust height as needed */
+    height: 450px; /* Adjust height as needed */
     transform-style: preserve-3d;
     transition: transform 0.6s ease-in-out;
     background-color: #FEFAE0 !important;
@@ -186,6 +186,6 @@
 .card-content {
     width: 100%;
     box-sizing: border-box;
-    padding: 10px;
+    padding-top: 3rem;
     text-align: left;
 }
