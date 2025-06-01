@@ -1,41 +1,47 @@
-import React from 'react';
-import Card from './Card.js';
-import '../assets/coverbanner.jpg';
+import React, { useState } from 'react';
+import Card from './Card';
+import videoFile from '../assets/pitch video.mp4'; // cleaner import
 
 function Body() {
+    const [flipped, setFlipped] = useState(false);
+
     return (
         <>
             <div className="outer-body">
                 <h1>Projects</h1>
                 <div className="container-body">
-                    <div className="project">
-                        <video className="info-video" controls>
-                            <source src={require('../assets/pitch video.mp4')} type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video>
-                        <Card
-                            title="False Alarm Processing App"
-                            description="This application was created in order to replace an older application 
-                            that was in use at the time. In this video, no real people are used. Only for entertainment 
-                            purposes and for showcasing the unfinished application. No real data was used. Repo is private for security purposes. 
-                            Video made by me :)"
-                        />
-                    </div>
-                    <div className="project">
-                        <img className="info-picture" src={require('../assets/scenery.jpg')} alt="cat" />
-                        <Card title="To be updated" description="To be updated " />
-                    </div>
-                    <div className="project">
-                        <img className="info-picture" src={require('../assets/coverbanner.jpg')} alt="cat" />
-                        <Card title="To be updated" description="To be updated " />
-                    </div>
-                    <div className="project">
-                        <img className="info-picture" src={require('../assets/scenery.jpg')} alt="cat" />
-                        <Card title="To be updated" description="To be updated" />
+                    <div 
+                        className={`card-container ${flipped ? 'flipped' : ''}`} 
+                        onClick={() => setFlipped(!flipped)}
+                    >
+                        <div className="project card">
+                            <div className="card-front">
+                                <video className="info-video" controls>
+                                    <source src={videoFile} type="video/mp4" />
+                                    Your browser does not support the video tag.
+                                </video>
+                                <h2>False Alarm Processing App</h2>
+                                <p>HTML/CSS, JavaScript, MongoDB, Electron, Node.js</p>
+                            </div>
+                            <div className="card-back">
+                                <Card
+                                    title="Description"
+                                    description={`As part of this 3-month capstone, I created a lighthearted pitch video to present our progress to stakeholders (no real people or 
+                                        data were used. This is just for entertainment and to showcase the unfinished application).
+
+                                    This project was intensive and fast-paced, involving everything from user testing wireframes to building out core application functionality. 
+                                    I developed features like false alarm parsing, creating invoice objects for data storage, and designed backend models to handle invoices efficiently. It also required me to quickly get up to speed with technologies 
+                                    I had never used before—learning on the fly and applying those skills directly.
+
+                                    Most importantly, this experience gave me a strong sense of what it's like to work on a real-world application: balancing technical work with communication, 
+                                    stakeholder feedback, and project management. Even though the final product wasn’t fully realized, I gained invaluable insight into how to set realistic expectations for both myself and the people I’m building for.`}
+                                />
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
-            <hr className="break"></hr>
         </>
     );
 }
