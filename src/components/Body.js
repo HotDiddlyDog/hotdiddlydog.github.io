@@ -30,12 +30,12 @@ function Body() {
                                     description={`As part of this 3-month capstone, I created a lighthearted pitch video to present our progress to stakeholders (no real people or 
                                         data were used. This is just for entertainment and to showcase the unfinished application).
 
-                                    This project was intensive and fast-paced, involving everything from user testing wireframes to building out core application functionality. 
-                                    I developed features like false alarm parsing, creating invoice objects for data storage, and designed backend models to handle invoices efficiently. It also required me to quickly get up to speed with technologies 
-                                    I had never used before—learning on the fly and applying those skills directly.
+                                    This project was fast-paced, involving everything from user testing wireframes to building out core application functionality. 
+                                    I developed core features which included false alarm parsing, creating invoice objects for data storage, and designed backend models to handle invoices efficiently. This project required me to quickly get up to speed with technologies 
+                                    I had never used before and applying those skills directly.
 
-                                    Most importantly, this experience gave me a strong sense of what it's like to work on a real-world application: balancing technical work with communication, 
-                                    stakeholder feedback, and project management. Even though the final product wasn’t fully realized, I gained invaluable insight into how to set realistic expectations for both myself and the people I’m building for.`}
+                                    Most importantly, this experience gave me a strong sense of what it's like to work on a real-world application: balancing work with communication and managing expectations based on
+                                    stakeholder feedback. Even though the final product wasn’t fully realized, I gained invaluable insight into how to set realistic expectations for both myself and the people I’m building for.`}
                                 />
                             </div>
                         </div>

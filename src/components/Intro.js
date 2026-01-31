@@ -8,11 +8,8 @@ function Intro(){
                 <div class='container-introcontent'>
                     <h2>About Me</h2>
                     <p>Hi, I'm Kathy Nguyen. I recently graduated from the University of Memphis with a B.S. in Computer Science. 
-                        I’m passionate about creatively building things and continuously learning new technologies and skills.
-                        I have a diverse background in development, having worked in agile environments where collaboration and adaptability are key. 
-                        My experience includes developing new features—such as adding user-facing functionality or improving workflows—fixing UI bugs to enhance usability, 
-                        and automating processes to efficiently collect and analyze data. I’m always looking for new ways to integrate technology into my life to make everyday 
-                        tasks easier and more efficient.
+                        I’m passionate about learning new technologies and continuously improving my skills. I have experience with front-end and back-end development, and I enjoy working on projects
+                        that challenge me to think critically and creatively. Working as a team player is important to me, and I value collaboration and communication in any project I take.
 
                          <br></br>
                          <br></br>
